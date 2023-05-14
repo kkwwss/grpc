@@ -5,12 +5,12 @@ This document has detailed instructions on how to build gRPC C++ from source. No
 Other should follow the user instructions. See the [How to use](https://github.com/grpc/grpc/tree/master/src/cpp#to-start-using-grpc-c) instructions for guidance on how to add gRPC as a dependency to a C++ application (there are several ways and system-wide installation is often not the best choice).
 
 # Pre-requisites
-
+  
 ## Linux
 
 ```sh
  $ [sudo] apt-get install build-essential autoconf libtool pkg-config
-```
+```   
 
 If you plan to build using CMake
 ```sh
